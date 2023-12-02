@@ -1,0 +1,17 @@
+.authentication {
+    width: 100%;
+    margin: 40px 0 100px;
+    /* padding-bottom: 100%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* height: 100vh; */
+}
+
+@media screen and (max-width: 480px) {
+    .authentication {
+        margin-top: 18px;
+
+    }
+
+}
