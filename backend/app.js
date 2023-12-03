@@ -28,11 +28,7 @@ app.use(cors({
     'localhost:3001',
     'http://localhost:3001',
     'localhost:3000',
-    'http://localhost:3000',
-    'https://api.react.mesto.nomoredomainsicu.ru',
-    'http://api.react.mesto.nomoredomainsicu.ru',
-    'http://react.mesto.nomoredomainsicu.ru',
-    'https://react.mesto.nomoredomainsicu.ru'],
+    'http://localhost:3000'],
   credentials: true,
   maxAge: 30,
 }));
