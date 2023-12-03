@@ -3,7 +3,8 @@ import checkResponse from "./handleResponse";
 
 class Api {
   constructor(config) {
-    this._url = "http://localhost:3001";
+    // this._url = "http://localhost:3001";
+    this._url = 'https://api.sashaf.nomoredomainsrocks.ru';
   }
 
   getInitialCards() {

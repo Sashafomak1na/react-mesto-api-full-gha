@@ -28,7 +28,12 @@ app.use(cors({
     'localhost:3001',
     'http://localhost:3001',
     'localhost:3000',
-    'http://localhost:3000'],
+    'http://localhost:3000',
+    'https://sashaf.nomoredomainsrocks.ru',
+    'http://sashaf.nomoredomainsrocks.ru',
+    'https://api.sashaf.nomoredomainsrocks.ru',
+    'http://api.sashaf.nomoredomainsrocks.ru',
+  ],
   credentials: true,
   maxAge: 30,
 }));

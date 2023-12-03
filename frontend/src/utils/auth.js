@@ -1,6 +1,7 @@
 import checkResponse from "./handleResponse"; 
 
-export const BASE_URL = 'http://localhost:3001';
+// export const BASE_URL = 'http://localhost:3001';
+export const BASE_URL = 'https://api.sashaf.nomoredomainsrocks.ru';
 
 export function register(password, email) {
 	return fetch(`${BASE_URL}/signup`, {
